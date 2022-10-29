@@ -99,7 +99,11 @@ let text = document.querySelector("#thing-2")
 
     // Test it! Somewhere below this function, call it. Store the returned DOM element in a variable, then append it to the page (use your first function from part 2).
 
-//     function addElementToList(e2){
-//         let text = document.querySelector("Not-thing-2")
-//         text.appendChild(e2)
-//    }
+    function addElementToList(e2){
+        let text = document.querySelector("Not-thing-2")
+        text.appendChild(e2)
+   }
+
+//    Write a function that takes in two strings, one representing a header size and one some text, and returns a new header of that size (e.g., a '3' for the first parameter should result in an <h3>) with that text in it.
+
+   
